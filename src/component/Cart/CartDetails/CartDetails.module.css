@@ -1,0 +1,39 @@
+/* .ConfirmBackdrop{
+    z-index: 9999;
+} */
+.CartDetails{
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    display: flex;
+    flex-flow: column;
+    width: 750rem;
+    max-height: 1200rem;
+    padding-bottom: 120rem;
+    border-top-left-radius: 40rem;
+    border-top-right-radius: 40rem;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30rem;
+}
+.Title{
+    font-size: 28rem;
+    margin: 0;
+}
+.Clear{
+    font-size: 24rem;
+    display: flex;
+    color: #aaa;
+    height: 40rem;
+    text-align: center;
+    align-items: center;
+}
+.ClearText{
+    margin-left: 15rem;
+}
+.MealList{
+    /* background-color: aqua; */
+    overflow: auto;
+}

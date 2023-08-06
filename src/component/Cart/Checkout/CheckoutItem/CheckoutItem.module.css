@@ -1,0 +1,31 @@
+.CheckoutItem{
+    /* background-color: aqua; */
+    display: flex;
+}
+.MealImg{
+    width: 140rem;
+}
+.MealImg img{
+    width: 100%;
+}
+.Desc{
+    /* margin: 0 15rem; */
+    width: 550rem;
+    padding: 10rem 15rem;
+}
+.Title{
+    /* margin: 15rem 0; */
+    margin: 10rem 0 20rem 0 ;
+    font-size: 24rem;
+    font-weight: normal;
+}
+.PriceOuter{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30rem;
+}
+.Price::before{
+    content: '￥';
+    font-size: 24rem;
+    font-weight: normal;
+}

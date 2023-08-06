@@ -1,0 +1,29 @@
+.FilterMeals{
+    height: 120rem;
+    border-bottom: 1px solid #ccc;
+    line-height: 120rem;
+    display: flex;
+    justify-content: center;
+}
+.SearchInput{
+    position: relative;
+}
+.InputOuter{
+    width: 650rem;
+    height: 70rem;
+    border: none;
+    background-color: #f2f2f2;
+    border-radius: 25rem;
+    padding-left: 55rem;
+    outline: none;
+    font-size: 24rem;
+}
+.SearchIcon{
+    color: red;
+    position: absolute;
+    font-size: 32rem;
+    top: 0;
+    left: 15rem;
+    bottom: 0;
+    margin: auto;
+}

@@ -1,0 +1,68 @@
+.Cart{
+    background-color: rgb(73, 72, 72);
+    width: 700rem;
+    height: 80rem;
+    position: fixed;
+    border-radius: 35rem;
+    bottom: 40rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 9;
+    justify-content: space-between;
+}
+.Icon{
+    width: 80rem;
+    top: -20rem;
+    position: absolute;
+}
+.TotalAmount{
+    position: absolute;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    line-height: 36rem;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 24rem;
+    right: -10rem;
+    top: 10rem;
+}
+.PriceDiv{
+    display: flex;
+    justify-content: space-between;
+    height: 80rem;
+}
+.Price,.NoMeal{
+    /* margin-left: 120rem; */
+    color: white;
+    height: 80rem;
+    line-height: 80rem;
+    font-size: 36rem;
+    font-weight: bold;
+    margin: 0 0 0 120rem;
+
+}
+.Price::before{
+    content: '￥';
+    color: white;
+    font-size: 24rem;
+    font-weight: none;
+    margin-right: 5rem;
+    line-height: 80rem;
+}
+.button{
+    width: 220rem;
+    border: none;
+    border-radius: 35rem;
+    font-size: 34rem;
+    background-color: orange;    
+}
+.NoMeal{
+    color: #aaa;
+}
+.Disabled{
+    background-color: rgb(129, 129, 129);
+    color: rgb(228, 228, 228);
+}
